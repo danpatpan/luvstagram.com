@@ -273,7 +273,18 @@ footer .icn-ftr4{
 .pst video{
     width: 100%;
 }
-
+video::-webkit-media-controls-download-button,
+video::-webkit-media-controls-playback-rate-menu,
+video::-webkit-media-controls-picture-in-picture-button,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-context-menu-button{
+  display: none;
+}
 .slick-track{
     max-height: 1920px;
     height: 100%;
