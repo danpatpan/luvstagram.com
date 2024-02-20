@@ -39,20 +39,12 @@ function no_contextmenu(evnet) {
     event.preventDefault()
 }
 document.addEventListener('contextmenu', no_contextmenu);
+
 $(function(){
     $('.pst1').slick({
         dots: true,
         infinite: false,
         arrows: false,
     });
-    $('.pst2').slick({
-        dots: true,
-        infinite: false,
-        arrows: false,
-    });
-    $('.pst3').slick({
-        dots: true,
-        infinite: false,
-        arrows: false,
-    });
 });
+
